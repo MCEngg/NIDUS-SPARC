@@ -1,0 +1,33 @@
+# FEMAS_v1.3.py
+# Fetal Echo Mask Automation Script 
+#
+# Last Modified: Jun 10, 2025 - 1:29 PM
+# Last Modified By: Matthew Chin
+#
+# Script Summary:
+# This script creates a mask image and an overlayed image of rectangles and polygons on top of the original image. These images are then saved to the
+# same DICOM folders where the original images could be found.
+#
+# Important Comments:
+# This file should be kept in the same directory as the [ANNOTATOR-DATA][ANNOTATE-SCHEMA].json file, the Fetal Echo JSON file, and the 
+# study folders that hold the DICOM folders.
+# The JSON files are hardcoded into this file and require manual manipulation.
+#
+# To Run the File:
+# There are 2 ways to run this script. Either through an IDE and by pressing the play button or by going through a terminal (LINUX UBUNTU was used to create this one).
+#
+# To run this script through LINUX:
+# 1. Navigate to the directory where this script is located along with the JSON files (see above for more details)
+# 2. Create a virtual environment for Python
+# 	- python3 -m venv ~/FEMAS_v1.3-venv
+# 3. Activate the virtual environment
+# 	- source ~/FEMAS_v1.3-venv/bin/activate
+# 4. Install any libraries that are required for the script (if not already installed)
+# 	- pip install numpy
+# 	- pip install opencv-python
+# 5. Run the script
+# 	- python3 ./FEMAS_v1.3.py
+
+
+
+IMPORTANT: Due to privacy and sensitive data, there are no JPG images. This program does work as expected.

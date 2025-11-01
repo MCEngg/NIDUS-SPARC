@@ -1,0 +1,25 @@
+# FEMAS_v2.py
+# Fetal Echo Mask Automation Script Version 2.0
+# 
+# Last Modified: Jun 13, 2025 - 3:33 PM
+# Last Modified By: Matthew Chin
+# Status: Deployed
+#
+# Script Summary:
+# Using the hierarchy JSON path loop through all of the Study Instance UID's and look at each specific DICOM
+# folder for the JPG frames. Then use the FEMAS_v1.3 masking and overlay function to create the masks and overlays.
+# Before saving the masks and overlays, create a directory for each masks and overlays and store them in the respective
+# directories.
+# 
+# The script will create a Overlay directory and a Mask directory in each of the DICOM folders and will store the respective images
+# in each folder.
+# 
+# Important Comments:
+# This file should be kept in the same directory as the annotation and Fetal-Echo hierarchy JSON files. It should also be 
+# located next to the JPGMO folder for the selected study.
+# 
+# Worst Case Scenario: O(n^2)
+# 
+# DISCLAIMER!
+# Portions of this script is material provided by ChatGPT. This script is optimized accordingg to advice given by ChatGPT.
+# 
